@@ -18,9 +18,8 @@ class String
   end
 
   def count_sentences
-  new = []
-  new << self.split(/.?!/)
-    new.length
+    new = self.split(/.?!/)
+    puts new.length
     binding.pry
   end
 end
